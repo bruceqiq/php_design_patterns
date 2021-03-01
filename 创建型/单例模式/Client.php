@@ -4,7 +4,7 @@
  * 单例模式
  * Class Demo
  */
-class  Demo
+class  Client
 {
 	protected static $demo;
 
@@ -42,11 +42,11 @@ class  Demo
 	}
 }
 
-$demo  = Demo::getInstance();
-$demo1 = Demo::getInstance();
-$demo2 = Demo::getInstance();
-$demo3 = Demo::getInstance();
-$demo4 = Demo::getInstance();
+$demo  = Client::getInstance();
+$demo1 = Client::getInstance();
+$demo2 = Client::getInstance();
+$demo3 = Client::getInstance();
+$demo4 = Client::getInstance();
 var_dump($demo, $demo1, $demo2, $demo3, $demo4);
 /**
  * output
