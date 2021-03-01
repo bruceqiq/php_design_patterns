@@ -20,6 +20,6 @@ new Client('mysql');
  * output
  * redis
  * 我是Redis连接类
- * mysql
+ * mysqlff
  * 我是MySQL类
  */
